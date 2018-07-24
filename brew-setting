@@ -1,0 +1,6 @@
+#install brew
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew install pyenv
+
+pyenv install 3.6.5
