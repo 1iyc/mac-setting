@@ -4,3 +4,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew install pyenv
 
 pyenv install 3.6.5
+
+#in .zshrc
+eval "$(pyenv init -)"
